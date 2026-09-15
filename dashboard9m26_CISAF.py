@@ -34,7 +34,7 @@ st.markdown("---")
 @st.cache_data
 def load_and_prepare_data():
     # ATENÇÃO: Ajuste o caminho abaixo se necessário para apontar para o seu arquivo
-    caminho_arquivo = "/Users/macintosh/Desktop/CISAF_SegurancaPublica_ENTREGA_PBL_FASE_5/ext_sbdg_9m26.xlsx"
+    caminho_arquivo = "ext_sbdg_9m26.xlsx"
     
     try:
         df = pd.read_excel(caminho_arquivo, sheet_name="Base_SBDG")
